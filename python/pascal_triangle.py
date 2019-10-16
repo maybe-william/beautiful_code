@@ -36,4 +36,5 @@ def gen_next(row):
     for i in range(0, len(row) - 1):
         l.append(row[i] + row[i + 1])
     l.append(1)
+
     return l
